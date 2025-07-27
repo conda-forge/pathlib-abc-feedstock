@@ -1,5 +1,5 @@
 {% set name = "pathlib-abc" %}
-{% set version = "0.4.3" %}
+{% set version = "0.5.0" %}
 {% set pypi_name = name.replace("-", "_") %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: cc9b3a375d29b32d0a57145ad9ce5f340ab249729ff7ed130bc7e2dbd45cad0b
+  sha256: 469c9e5402c6d3007d11c4062eb6651300a425d670c913b4bc4bd78199cec2c3
 
 build:
   noarch: python
